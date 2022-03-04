@@ -79,7 +79,14 @@ img {
     align-items: center;
   }
 
-  
+  #lezioni,
+  #why{
+    background-color: rgb(242, 242, 205);
+    display: inline-block;
+  }
 
+  #steps{
+    background-color: transparent;
+  }
   
 }
