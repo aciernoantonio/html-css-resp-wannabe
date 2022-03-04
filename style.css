@@ -132,4 +132,7 @@ img {
     background-color: transparent;
   }
   
+  hr{
+    border: 2px solid black;
+  }
 }
