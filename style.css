@@ -73,16 +73,45 @@ img {
 }
 
 @media screen and (max-width: 420px) {
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
   .row{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   #lezioni,
   #why{
     background-color: rgb(242, 242, 205);
     display: inline-block;
+  }
+
+  #lezioni .row>.left, 
+  #lezioni .row>.right,
+  #steps .row>.left, 
+  #steps .row>.central, 
+  #steps .row>.right {
+    width: 95%;
+    font-size: 1.8rem;
+  }
+
+  .container h1{
+    font-size: 3rem;
+  }
+
+  img{
+    margin-top: 2rem;
+  }
+
+  .container h3{
+    font-size: 2.5rem;
   }
 
   #steps{
